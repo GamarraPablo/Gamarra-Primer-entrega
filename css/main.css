@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(201, 201, 196);
+}
+
+/* Nav */
+header {
+    width: 100%;
+    height: 10%;
+    position:sticky;
+    top: 1px;
+}
+
+nav {
+    height: 100%;
+}
+
+nav ul {
+    width: 90%;
+    height: 100%;
+    background-color: rgb(11, 51, 181);
+    float: right;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    border: 2px solid rgb(145, 141, 141);
+    background-color: rgb(241, 18, 18);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+#logo {
+    background-color: rgb(11, 51, 181);
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.logo {
+    width: 58px;
+    height: 58px;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+
+/* Main */
+main {
+    width: 100%;
+    height: 80%;
+}
+
+#block-text {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(241, 18, 18);
+    color: white;
+    float: left;
+    margin-top: 50px;
+}
+
+#block-img {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(201, 201, 196);
+    float: right;
+    margin-top: 50px;
+}
+
+.escudo {
+    width: 500px;
+    height: 500px;
+    margin-left: 70px;
+}
+
+.caja1 {
+    background-color: rgb(11, 51, 181);
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    border: 2px solid black;
+    color: yellow;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#oMundial {
+    width: 75px;
+    height: 75px;
+    margin-right: 25px;
+    padding-bottom: 30px;
+}
+
+#eMarne {
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    margin-right: 20px;
+    padding-bottom: 40px;
+}
+
+.caja2 {
+    background-color: rgb(11, 51, 181);
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-left: 60px;
+    border: 2px solid black;
+    color: yellow;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.caja3 {
+    background-color: rgb(11, 51, 181);
+    width: 400px;
+    height: 100px;
+    float: right;
+    margin-right: 20px;
+    border: 2px solid black;
+    color: yellow;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.Boton-comprar {
+    font-size: 1.5rem;
+    margin: 15px;
+    background-color: yellow;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.whatsapp {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-bottom:150px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: 350px;
+    
+}
+
+.jugadores {
+    width: 20%;
+    height: 250px; 
+    margin-top: 70px;  
+    margin-left: 80px;
+    float: left;
+}
+
+.jugadores2 {
+    width: 25%;
+    height: 250px; 
+    margin-top: 70px;  
+    float: left;
+    margin-left: 160px;
+}
+
+.jugadores3 {
+    width: 20%;
+    height: 250px; 
+    display: inline-flex;
+    margin-right: 80px;
+    float: right;
+    margin-top: 70px;
+}
+
+/*socios*/
+form {
+    float: right;
+    margin-right: 600px;
+    margin-top: 70px;  
+}
+
+.img-socios {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    margin-left: 200px;  
+}
+
+
+.enviar2 {
+    font-size: 1.5rem;
+    margin: 15px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 45px;
+}
+/* Actividades */
+.video {
+margin-left: 350px;
+}
+
+.actividades {
+    margin-left: 550px;
+    font-size: 2rem;
+    margin-top: 100px;
+    background-color: blue;
+    width: 160px;
+    height: 300px;
+    
+}
+
+.actividades-img {
+    margin-top: 50px;
+    margin-left: 520px;
+}
+
+div ul {
+    list-style: none;}
+
+/* elClub */
+.equipo {
+    width: 800px;
+    height:800px;
+    margin-left: 300px;
+}
+
+.subtitulo {
+    margin-left: 580px;
+}
+
+.subtitulo2 {
+    margin-top:300px;
+    margin-left: 630px;
+}
+
+/* contacto */
+.form2 {
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    border: 3px double black;
+}
+
+.enviar {
+    font-size: 1.5rem;
+    margin: 15px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 38px;
+}
+
+.reset {
+    font-size: 1.5rem;
+    margin: 15px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(11, 51, 181);
+    margin-top: 600px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 15px;
+    float: left;
+    margin-left: 40px;
+}
+
+footer ul li {
+    display: inline-block;  
+}
+
+#icons {
+    text-align: right;
+    margin-right: 40px;
+    padding-top: 18px;
+    color: white;
+}
